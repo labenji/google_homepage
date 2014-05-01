@@ -1,0 +1,68 @@
+html{
+	font:15px arial,sans-serif;
+	}
+	
+img{
+	position:absolute;
+	top:45%;
+	left:50%;
+	width:30%;
+	margin-left:-15%;
+	margin-top:-5.83%;
+	}
+
+form{
+	position:absolute;
+	top:60%;
+	left:50%;
+	margin-left:-10%;
+	}
+	
+.fullw{
+	width=100%;
+	}
+	
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	}
+	
+li.head{
+	float:right;
+	}
+	
+li.footl{
+	float:left;
+	}
+li.footr{
+	float:right;
+	}
+
+a{
+	display:block;
+	width:85px;
+	text-align:center;
+	text-decoration: none; 
+    decoration: none; 
+	}
+	
+a:link, a:visited {
+    color: black;
+}
+	
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {
+	overflow:auto;
+	padding-bottom: 45px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -45px; /* negative value of footer height */
+	height: 60px;
+	clear:both;
+	background-color:#E6E6E6;
+	vertical-align:middle;
+	} 
